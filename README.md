@@ -1,4 +1,4 @@
 # KafkaTopicExercises
 
-Topic Pippo do things (In Kafka).
+Topic "Pippo" do things (In Kafka).
 
