@@ -1,4 +1,4 @@
 # Kafka-Topic Exercises
 
-Topic "Pippo" make things (In Kafka).
-
+Il topic è uno dei parametri più vulnerabili nell'Architettura Kafka.
+Attraverso implementazioni base, si cerca di analizzarne i possibili interventi di sviluppo.
