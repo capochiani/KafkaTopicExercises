@@ -11,5 +11,6 @@ Create Topic (sh/bat):
 
 Send Topic: 
 > bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+
 Start Consumer: 
 > bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
