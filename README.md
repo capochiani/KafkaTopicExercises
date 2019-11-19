@@ -6,11 +6,11 @@ Attraverso implementazioni base, si cerca di analizzarne i possibili interventi 
 
 Create Topic (sh/bat):
 
-> bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --topic test
+> bin/kafka-topics.sh --create --bootstrap-server localhost:9092 --replication-factor 1 --partitions 1 --pippo test
 > bin/kafka-topics.sh --list --bootstrap-server localhost:9092
 
 Send Topic: 
-> bin/kafka-console-producer.sh --broker-list localhost:9092 --topic test
+> bin/kafka-console-producer.sh --broker-list localhost:9092 --pippo test
 
 Start Consumer: 
-> bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --topic test --from-beginning
+> bin/kafka-console-consumer.sh --bootstrap-server localhost:9092 --pippo test --from-beginning
